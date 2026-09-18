@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Nosso Sistema</title>
+    <!-- Importação do Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white min-h-screen flex flex-col justify-between font-sans">
+
+    <!-- Navegação / Header simples -->
+    <header class="p-6 flex justify-between items-center max-w-7xl mx-auto w-full">
+        <div class="text-2xl font-black tracking-wider text-indigo-400">RODOLFO<span class="text-white">APP</span></div>
+        <nav class="space-x-6 text-sm font-medium text-slate-300">
+            <a href="#" class="hover:text-white transition">Início</a>
+            <a href="#" class="hover:text-white transition">Recursos</a>
+            <a href="#" class="hover:text-white transition">Suporte</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal (Hero Section) -->
+    <main class="flex-grow flex items-center justify-center px-4">
+        <div class="text-center max-w-2xl transform transition-all duration-500 hover:scale-[1.01]">
+            <!-- Badge -->
+            <span class="inline-block px-3 py-1 bg-indigo-500/10 text-indigo-300 text-xs font-semibold rounded-full border border-indigo-500/20 mb-6 uppercase tracking-widest">
+                Ambiente Configurado
+            </span>
+            
+            <!-- Título Principal -->
+            <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 bg-gradient-to-r from-white via-slate-200 to-indigo-200 bg-clip-text text-transparent">
+                Seja muito bem-vindo!
+            </h1>
+            
+            <!-- Subtítulo -->
+            <p class="text-lg md:text-xl text-slate-400 font-light mb-10 leading-relaxed">
+                Sua aplicação Django já está conectada e pronta para o próximo passo. Vamos construir algo incrível hoje?
+            </p>
+            
+            <!-- Botões de Ação -->
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#" class="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl shadow-lg shadow-indigo-600/30 transition-all active:scale-95 text-center">
+                    Acessar o Painel
+                </a>
+                <a href="#" class="px-8 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold rounded-xl border border-slate-700 transition-all active:scale-95 text-center">
+                    Ver Documentação
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="p-6 text-center text-xs text-slate-500 border-t border-slate-800/50">
+        &copy; 2026 DjangoApp. Desenvolvido com Python, Django & Tailwind CSS.
+    </footer>
+
+</body>
+</html>
